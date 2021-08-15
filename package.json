@@ -1,68 +1,29 @@
 {
-  "name": "ext",
-  "namespace": "Ext",
-  "format": "1",
-  "version": "6.2.0.981",
-  "compatVersion": "6.2.0",
-  "creator": "Sencha",
-  "summary": "Ext JS",
-  "detailedDescription": "Sencha Ext JS JavaScript Framework",
-  "type": "framework",
-  "output": "${package.dir}/build",
-  "build": {
-    "dir": "${package.output.base}"
+  "name": "extjs-gpl",
+  "version": "6.2.0",
+  "description": "GPL licensed version of Sencha Ext JS",
+  "main": "ext-bootstrap.js",
+  "directories": {
+    "example": "examples"
   },
-  "sass": {
-    "fashion": true,
-    "namespace": "Ext",
-    "etc": "${package.dir}/sass/etc/all.scss",
-    "var": "${package.dir}/sass/var",
-    "src": "${package.dir}/sass/src"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "classpath": "${package.dir}/src",
-  "overrides": "${package.dir}/overrides",
-  "resource": {
-    "paths": [
-      "resources"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tananaev/extjs-gpl.git"
   },
-  "example": {
-    "path": [
-      "examples",
-      "templates"
-    ],
-    "apps": [
-      "admin-dashboard",
-      "executive-dashboard",
-      "feed-viewer",
-      "kitchensink",
-      "calendar",
-      "classic/desktop",
-      "classic/ticket-app",
-      "classic/portal",
-      "classic/simple-tasks",
-      "classic/responsive-app",
-      "classic/aria",
-      "modern/addressbook",
-      "modern/blackberry",
-      "modern/energy",
-      "modern/stockapp",
-      "modern/states",
-      "modern/geocongress",
-      "modern/oreilly"
-    ]
+  "keywords": [
+    "ext",
+    "js",
+    "extjs",
+    "sencha",
+    "gpl"
+  ],
+  "author": "Anton Tananaev",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tananaev/extjs-gpl/issues"
   },
-  "subpkgs": [
-    "classic/classic",
-    "modern/modern",
-    "packages/charts",
-    "packages/amf",
-    "packages/soap",
-    "packages/ux",
-    "packages/google",
-    "packages/legacy",
-    "packages/font-awesome",
-    "packages/font-pictos",
-    "packages/font-ext"
-  ]
+  "homepage": "https://github.com/tananaev/extjs-gpl#readme"
 }
